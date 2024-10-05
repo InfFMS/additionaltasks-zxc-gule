@@ -1,1 +1,5 @@
-
+a=int(input())
+b=int(input())
+c=int(input())
+answer = a + b + c - min(a, b, c) - max(a, b, c)
+print(answer)
